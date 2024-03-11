@@ -1,5 +1,7 @@
 # Testes API EBAC Shop
-Este é o repositório do teste automatizado da API de cupons. 
+Este é o repositório do teste automatizado da API de cupons. <br />
+
+A documentação da API você encontra [AQUI](http://lojaebac.ebaconline.art.br/rest-api/docs/#/)
 > Os testes foram escritos com a ferramenta Cypress usando a linguagem JavaScript.
 
 ## Executando os testes
