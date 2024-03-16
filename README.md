@@ -1,14 +1,15 @@
-# Testes API EBAC Shop
-Este é o repositório do teste automatizado da API de cupons. <br />
+#  API Tests EBAC Shop
+This is the repository for the automated tests of the coupon API. <br />
 
-A documentação da API você encontra [AQUI](http://lojaebac.ebaconline.art.br/rest-api/docs/#/)
-> Os testes foram escritos com a ferramenta Cypress usando a linguagem JavaScript.
+You'll find the API documentation [HERE](http://lojaebac.ebaconline.art.br/rest-api/docs/#/)
 
-## Executando os testes
-### Primeiros passos
-1. Instale o node. Execute `npm install node`
-2. Execute o comando `npm install` para instalar as dependências
+> The tests were written with Cypress tool using JavaScript.
 
-### Executando os testes
-- Para rodar os testes via terminal, execute `npm run cy:run`
-- Para gerar o relatório usando Mocha, execute `npm run cy:report`
+## Running tests
+### First steps
+1. Install node. Run `npm install node`
+2. Run `npm install` to install the dependencies
+
+### Commands to run the tests
+- To run the tests at the command prompt `npm run cy:run`
+- To generate the report using Mocha, run `npm run cy:report`
