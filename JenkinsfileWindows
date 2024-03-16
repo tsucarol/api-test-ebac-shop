@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Setup') {
+            steps {
+                git branch: 'main', url: 'https://github.com/tsucarol/teste-api-ebac-shop.git'
+                bat 'npm install'
+                bat 'npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator'
+            }
+        }
+        stage('Test') {
+            steps {
+                bat '''set NO_COLOR=1
+npm run cy:run'''
+            }
+        }
+        stage('Report') {
+            steps {
+                bat 'npm run cy:report'
+            }
+        }
+    }
+}
